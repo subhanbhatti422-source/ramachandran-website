@@ -1,0 +1,14 @@
+#resume{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 130px;
+
+}
+
+#resume img{
+    height: auto;
+    width: 630px;
+    border: 1px solid red;
+    border-radius: 20px;
+}

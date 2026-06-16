@@ -1,0 +1,64 @@
+.timeline2{
+    /* margin-left: 50px; */
+    padding-top: 60px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+
+.year-project2{
+    display: flex;
+    gap: 425px;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.year-project2 p{
+    /* font-weight: 100; */
+    font-family: eight;
+    font-size: 11px;
+
+}
+
+/* .main-details2{
+   
+} */
+
+.detail-2{
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    line-height: 30px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+    padding-top: 10px;
+    
+}
+.detail-2 p{
+    font-family: ten;
+    font-size: 13px;
+    text-align: start;
+    width: 400px;
+    /* font-weight: 200; */
+}
+
+.detail-2 button{
+    background-color: #ff6b2c;
+    padding: 8px 18px;
+    font-size: 10px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-family: six;
+}
+
+.detail-2 .black-btn{
+    background-color: black;
+}
+
+.detail-2 .View{
+    background-color: #9342FC;
+}

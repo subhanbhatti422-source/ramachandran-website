@@ -1,0 +1,642 @@
+@media (max-width: 1280px) {
+    .CreativeDiv h3 {
+        font-size: 9rem;
+    }
+
+    .hindi img {
+        width: 20vw;
+
+
+    }
+
+    .CreativeDiv {
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .hindiText p {
+        font-size: 0.7rem;
+    }
+
+    .PR h3 {
+        font-size: 10.7rem;
+        margin-top: 10px;
+    }
+
+    .PR span img {
+
+        width: 220px;
+    }
+
+    .DESIGNER h3 {
+        font-size: 9.4rem;
+        margin-top: 20px;
+    }
+
+    .help {
+        width: 5vw;
+
+    }
+
+    .heavyText p {
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
+
+    .heavyText span img {
+        width: 6vw;
+        height: 9vh;
+    }
+
+    .heavyText .icon img {
+        width: 6vw;
+        height: 13vh;
+    }
+
+    .yearBtn {
+
+        font-size: 3rem;
+    }
+
+    .with-my-skills-in p {
+        font-size: 1.6rem;
+    }
+
+
+    .btn-10 {
+        margin-top: 1rem;
+    }
+
+
+    .Empathy {
+        /* padding: 1rem 1rem; */
+        display: none;
+    }
+
+    .User-Research {
+        padding: 0.5rem 1rem;
+        font-size: 1.7rem;
+    }
+
+    .Wireframing {
+        padding: 0.5rem 1rem;
+        font-size: 1.7rem;
+
+    }
+
+    .Prototyping {
+        padding: 0.8rem 1rem;
+        font-size: 1.7rem;
+
+    }
+
+    .User-flow {
+        padding: 0.5rem 1rem;
+        font-size: 1.7rem;
+
+    }
+
+    .Collaboration {
+        display: none;
+    }
+
+    .and {
+        display: none;
+    }
+
+    .Visual-UI {
+        display: none;
+    }
+
+    .Information-Design {
+        padding: 0.7rem 1rem;
+        font-size: 1.7rem;
+
+    }
+
+    .Critical-Thinking {
+        padding: 0.5rem 1rem;
+        font-size: 1.7rem;
+    }
+
+    .Communication {
+        padding: 0.5rem 1rem;
+        font-size: 1.7rem;
+    }
+
+    .Featured-section h1 {
+        font-size: 7rem;
+    }
+
+    .liveBtn {
+        right: 12%;
+    }
+
+    .studyText p {
+        font-size: 0.8rem;
+    }
+
+    .studyText .case2 {
+        font-size: 2rem;
+    }
+
+    .twoCards {
+        gap: 2rem;
+    }
+
+    .liveBtn2 {
+        right: 25%;
+    }
+
+    .CASE-STUDY-02 {
+        width: 48.4%;
+    }
+
+    .studyText2 .case3 {
+        font-size: 2rem;
+    }
+
+    .case3 span {
+        font-size: 2rem;
+    }
+
+    .studyText3 .case4 {
+        font-size: 2rem;
+    }
+
+    .case4 span {
+        font-size: 1.9rem;
+    }
+
+    .timeline h2 {
+        font-size: 3rem;
+    }
+
+    .year-project {
+        gap: 20rem;
+    }
+
+    .contact-email img {
+        top: 53%;
+        right: 30%;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .CreativeDiv h3 {
+        font-size: 7rem;
+    }
+
+    .hindi img {
+        width: 22vw;
+        height: 20vh;
+    }
+
+    .CreativeDiv {
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .hindiText p {
+        font-size: 0.6rem;
+    }
+
+    .PR h3 {
+        font-size: 8rem;
+        margin-top: 10px;
+    }
+
+    .PR span img {
+
+        width: 190px;
+    }
+
+    .DESIGNER h3 {
+        font-size: 7rem;
+        margin-top: 20px;
+    }
+
+    .help {
+        width: 4vw;
+        height: 21vh;
+
+    }
+
+    .heavyText p {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+    }
+
+    .heavyText span img {
+        width: 5vw;
+        height: 8vh;
+    }
+
+    .heavyText .icon img {
+        width: 5vw;
+        height: 11vh;
+    }
+
+    .yearBtn {
+
+        font-size: 2.4rem;
+    }
+
+    .with-my-skills-in p {
+        font-size: 1.8rem;
+    }
+
+
+    .btn-10 {
+        margin-top: 1rem;
+    }
+
+
+    .Empathy {
+        /* padding: 1rem 1rem; */
+        display: none;
+    }
+
+    .User-Research {
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+    }
+
+    .Wireframing {
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+    }
+
+    .Prototyping {
+        padding: 0.8rem 1rem;
+        font-size: 1.2rem;
+
+    }
+
+    .User-flow {
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+
+    }
+
+    .Collaboration {
+        display: none;
+    }
+
+    .and {
+        display: none;
+    }
+
+    .Visual-UI {
+        display: none;
+    }
+
+    .Information-Design {
+        padding: 0.7rem 1rem;
+        font-size: 1.2rem;
+
+    }
+
+    .Critical-Thinking {
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+    }
+
+    .Communication {
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+    }
+
+    .Featured-section h1 {
+        font-size: 6rem;
+    }
+
+    .liveBtn {
+        right: 12%;
+    }
+
+    .studyText p {
+        font-size: 0.8rem;
+    }
+
+    .studyText .case2 {
+        font-size: 1.8rem;
+    }
+
+    .twoCards {
+        gap: 2rem;
+    }
+
+    .liveBtn2 {
+        right: 30%;
+    }
+
+    .CASE-STUDY-02 {
+        width: 48.4%;
+    }
+
+    .studyText2 .case3 {
+        font-size: 1.8rem;
+    }
+
+    .case3 span {
+        font-size: 1.8rem;
+
+    }
+
+    .studyText3 .case4 {
+        font-size: 1.8rem;
+
+    }
+
+    .case4 span {
+        font-size: 1.8rem;
+
+    }
+
+    .timeline h2 {
+        font-size: 3rem;
+    }
+
+    /* .year-project {
+       
+    } */
+
+    .INTERESTED h2 {
+        font-size: 4rem;
+    }
+
+    .INTERESTED img {
+        height: auto;
+        width: 40px;
+    }
+
+    .contact-email img {
+        top: 65%;
+        right: 28%;
+    }
+
+    .syudyLi2 ul {
+        font-size: 0.7rem;
+        gap: 1rem;
+    }
+
+    .syudyLi2 button {
+        padding: 4px 20px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .CreativeDiv h3 {
+        font-size: 5rem;
+    }
+
+    .hindi img {
+        width: 20vw;
+        height: 16vh;
+    }
+
+    .CreativeDiv {
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .hindiText p {
+        font-size: 0.5rem;
+    }
+
+    .PR h3 {
+        font-size: 5.6rem;
+        margin-top: 10px;
+        letter-spacing: 0.5px;
+        margin-top: 20px;
+    }
+
+    .PR span img {
+        margin-top: 20px;
+        width: 150px;
+
+    }
+
+    .DESIGNER h3 {
+        font-size: 5.6rem;
+        margin-top: 20px;
+    }
+
+    .help {
+        width: 4vw;
+        height: 21vh;
+
+    }
+
+    .heavyText p {
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+    }
+
+    .heavyText span img {
+        width: 5vw;
+        height: 8vh;
+    }
+
+    .heavyText .icon img {
+        width: 5vw;
+        height: 11vh;
+    }
+
+    .yearBtn {
+
+        font-size: 2.4rem;
+    }
+
+    .with-my-skills-in p {
+        font-size: 1.8rem;
+    }
+
+
+    .btn-10 {
+        margin-top: 1rem;
+    }
+
+
+    .Empathy {
+        /* padding: 1rem 1rem; */
+        display: none;
+    }
+
+    .User-Research {
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+    }
+
+    .Wireframing {
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+    }
+
+    .Prototyping {
+        padding: 0.8rem 1rem;
+        font-size: 1.2rem;
+
+    }
+
+    .User-flow {
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+
+    }
+
+    .Collaboration {
+        display: none;
+    }
+
+    .and {
+        display: none;
+    }
+
+    .Visual-UI {
+        display: none;
+    }
+
+    .Information-Design {
+        padding: 0.7rem 1rem;
+        font-size: 1.2rem;
+
+    }
+
+    .Critical-Thinking {
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+    }
+
+    .Communication {
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+    }
+
+    .Featured-section h1 {
+        font-size: 5rem;
+    }
+
+    .liveBtn {
+        right: 23%;
+    }
+
+    .studyText p {
+        font-size: 0.8rem;
+    }
+
+    .studyText .case2 {
+        font-size: 1.8rem;
+    }
+
+    .twoCards {
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .liveBtn2 {
+        right: 30%;
+    }
+
+    .CASE-STUDY-02,
+    .CASE-STUDY-03 {
+
+        display: none;
+    }
+
+    .studyText2 .case3 {
+        font-size: 1.8rem;
+    }
+
+    .case3 span {
+        font-size: 1.8rem;
+
+    }
+
+    .studyText3 .case4 {
+        font-size: 1.8rem;
+
+    }
+
+    .case4 span {
+        font-size: 1.8rem;
+
+    }
+
+    .timeline h2 {
+        font-size: 3rem;
+    }
+
+    .year-project {
+        /* gap: 20rem; */
+        /* display: none; */
+    }
+
+    .INTERESTED h2 {
+        font-size: 3rem;
+        line-height: 50px;
+    }
+
+    .INTERESTED img {
+        height: auto;
+        width: 40px;
+    }
+
+    .contact-email img {
+        top:  70%;
+        right: 15%;
+    }
+
+    .syudyLi2 ul {
+        font-size: 0.7rem;
+        gap: 1rem;
+    }
+
+    .syudyLi2 button {
+        padding: 4px 20px;
+    }
+
+    .sliderText{
+    margin-top: 150px;
+
+    }
+
+.mainMobile{
+    margin-top: 150px;
+}
+    .none {
+        display: none;
+    }
+
+    .detail-1 button{
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+
+    .footer-end-p p , a{
+        font-size: 0.6rem;
+    }
+
+    .footer-p p{
+        font-size: 0.6rem;
+    }
+.footer-btn{
+    gap: 10px;
+}
+    .footer-btn button{
+        padding: 3px 20px;
+        font-size: 11px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .companys-name{
+        width: 90%;
+    }
+}

@@ -1,0 +1,157 @@
+@font-face {
+    font-family: first;
+    src: url(/src/assets/fonts/2bboHtvDLWxr8Lf2bFCFLFgA7cY.woff2);
+}
+@font-face {
+    font-family: sec;
+    src: url(/src/assets/fonts/bBluwqbRfiyuADkTMv98XAYupNI.woff2);
+}
+@font-face {
+    font-family: third;
+    src: url(/src/assets/fonts/bHYNJqzTyl2lqvmMiRRS6Y16Es.woff2);
+}
+@font-face {
+    font-family: four;
+    src: url(/src/assets/fonts/C6VM2RT4EU2NNT5XZWVYHR7WOIOGM4EU.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+    background-color: rgba(245, 245, 220, 0.363);
+    backdrop-filter: blur(20px);
+}
+
+.navbar h3{
+    font-family: third;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family: first;
+    letter-spacing: 2px;
+}
+
+#full{
+    display: flex;
+    gap: 30px;
+}
+
+#full a{
+    text-decoration: none;
+    font-family: first;
+    letter-spacing: 2px;
+    font-size: 14.5px;
+}
+
+.hamburger{
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Close Button */
+.close-btn{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    border: none;
+    background: transparent;
+    font-size: 35px;
+    cursor: pointer;
+    color: black;
+    display: none;
+}
+
+/* Mobile Menu */
+@media (max-width:768px){
+
+    .linkedin{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 10001;
+    }
+
+    #full{
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 60%;
+        height: 100vh;
+        background: rgb(255, 145, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        transition: right 0.5s ease;
+        z-index: 10000;
+    }
+
+    #full.active{
+        right: 0;
+    }
+
+    #full a{
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+        font-family: eight;
+    }
+
+    .navbar h3{
+        font-size: 0.8rem;
+    }
+
+    .close-btn{
+        font-size: 25px;
+        display: block;
+    }
+}
+
+/* Small Mobile */
+@media (max-width:480px){
+
+    .navbar{
+        padding: 20px;
+    }
+
+    .navbar h3{
+        font-size: 0.7rem;
+    }
+
+    #full{
+        width: 75%;
+    }
+
+    #full a{
+        font-size: 1.2rem;
+    }
+
+    .close-btn{
+        font-size: 20px;
+        display: block;
+    }
+
+    
+}

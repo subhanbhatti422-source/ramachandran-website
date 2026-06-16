@@ -1,0 +1,387 @@
+.Product {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 130px;
+}
+
+.left img {
+    width: auto;
+    height: 520px;
+    border-radius: 10px;
+}
+
+.right h1 {
+    font-size: 48px;
+    font-family: seven;
+    line-height: 55px;
+    margin-bottom: 50px;
+}
+
+.two-para {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.two-para p {
+    font-size: 15px;
+    font-family: eight;
+}
+
+.Skills-Interest {
+    width: 1000px;
+    margin: auto;
+}
+
+.three {
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.three-para {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Skills p {
+    font-size: 14px;
+    font-family: eight;
+    margin-bottom: 15px;
+}
+
+.scroll-img {
+    width: 200px;
+}
+
+.scroll-img img {
+    width: 70px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.Experience p {
+    font-size: 14px;
+    font-family: eight;
+    margin-bottom: 15px;
+}
+
+.Experience-three-para {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.Experience-contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.email {
+    line-height: 5px;
+    margin-bottom: 15px;
+    margin-top: -3px;
+}
+
+.email .email-1-para {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.social {
+    line-height: 10px;
+}
+
+.social-icon {
+    display: flex;
+    gap: 7px;
+}
+
+.social p {
+    font-size: 13px;
+}
+
+.Education p {
+    font-size: 14px;
+    font-family: eight;
+}
+
+.education-text1 p,
+.education-text2 p {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.all-text-education {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Education button {
+    padding: 13px 36px;
+    background-color: black;
+    font-size: 11px;
+    margin-top: 30px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.scroll-wrapper {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.scroll-img {
+    display: flex;
+    gap: 15px;
+    position: relative;
+    animation: scroll 6s linear infinite;
+}
+
+.scroll-img img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+@keyframes scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+}
+
+.Workspaces h1 i {
+    font-size: 20px;
+    color: #FF5B00;
+    animation: rotateIcon 8s linear infinite;
+    display: inline-block;
+}
+
+@keyframes rotateIcon {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.Workspaces h1 {
+    text-align: center;
+    font-family: eight;
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+.scroll-wrapper2 {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.scroll-img2 {
+    display: flex;
+    gap: 15px;
+    position: relative;
+    animation: scroll 13s linear infinite;
+}
+
+.scroll-img2 img {
+    width: 400px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+.Workspaces {
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 1024px) {
+
+    .Product {
+        max-width: 90%;
+        margin-top: 80px;
+        gap: 30px;
+    }
+
+    .left img {
+        height: 400px;
+    }
+
+    .right h1 {
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 30px;
+    }
+
+    .Skills-Interest {
+        width: 90%;
+    }
+
+    .three {
+        gap: 40px;
+    }
+
+    .scroll-img2 img {
+        width: 300px;
+        height: 180px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    
+    .Product {
+        flex-direction: column;
+        align-items: center;
+        max-width: 92%;
+        margin-top: 50px;
+        gap: 24px;
+        text-align: center;
+    }
+
+    .left img {
+        height: 280px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .right h1 {
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+
+    .two-para {
+        gap: 18px;
+        text-align: left;
+    }
+
+    .two-para p {
+        font-size: 14px;
+    }
+
+    
+    .Skills-Interest {
+        width: 92%;
+    }
+
+    .three {
+        flex-direction: column;
+        gap: 36px;
+        margin-top: 36px;
+    }
+
+    .three-para {
+        gap: 18px;
+    }
+
+    .Skills p,
+    .Experience p,
+    .Education p {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .education-text1 p,
+    .education-text2 p {
+        font-size: 12px;
+    }
+
+    .all-text-education {
+        gap: 14px;
+    }
+
+    .Education button {
+        padding: 11px 28px;
+        font-size: 11px;
+        margin-top: 20px;
+    }
+
+    
+    .Experience-contact {
+        margin-top: 14px;
+    }
+
+    .email {
+        line-height: 8px;
+        margin-bottom: 12px;
+    }
+
+    .scroll-wrapper {
+        margin-top: 24px;
+    }
+
+    .scroll-img img {
+        width: 80px;
+        height: 120px;
+    }
+
+    /* ---- Workspaces ---- */
+    .Workspaces h1 {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    .scroll-wrapper2 {
+        margin-top: 24px;
+    }
+
+    .scroll-img2 img {
+        width: 220px;
+        height: 140px;
+    }
+
+    .Workspaces {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+
+    .Product {
+        max-width: 96%;
+        margin-top: 100px;
+        gap: 16px;
+    }
+
+    .left img {
+        height: 220px;
+    }
+
+    .right h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .two-para p {
+        font-size: 13px;
+    }
+
+    .scroll-img img {
+        width: 65px;
+        height: 100px;
+    }
+
+    .scroll-img2 img {
+        width: 170px;
+        height: 110px;
+    }
+
+    .Workspaces h1 {
+        font-size: 17px;
+    }
+}
