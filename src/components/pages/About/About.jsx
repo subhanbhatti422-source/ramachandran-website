@@ -1,8 +1,12 @@
 import "./About.css";
 import { Link } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+
 function About() {
   return (
     <>
+<Navbar/>
+    
       <section className="Product">
         <div className="left">
           <img src="https://framerusercontent.com/images/90fMHzZe5xSUbn4kPauU7Q1BJ34.jpg?scale-down-to=1024&width=1770&height=2187" alt="" />

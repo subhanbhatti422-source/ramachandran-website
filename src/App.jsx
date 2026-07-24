@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import 'remixicon/fonts/remixicon.css'
-import Navbar from "./components/Navbar/Navbar";
+// import Navbar from "./components/Navbar/Navbar";
 
 import Home from "./components/pages/Home/Home";
 import Work from "./components/pages/Work/Work";
@@ -35,7 +35,7 @@ function App() {
         <Loader />
       ) : (
         <>
-          <Navbar />
+          {/* <Navbar /> */}
 
           <Routes>
             <Route path="/" element={<Home />} />
