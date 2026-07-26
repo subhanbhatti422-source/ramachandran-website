@@ -1,10 +1,14 @@
 
+import Navbar from "../../Navbar/Navbar";
 import "./Work.css";
 
 
 function Work() {
   return (
     <>
+
+    <Navbar/>
+
       <section className="timeline2">
 
         <div className="year-project2">

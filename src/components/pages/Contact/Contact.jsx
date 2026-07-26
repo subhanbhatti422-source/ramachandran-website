@@ -1,9 +1,12 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import Navbar from "../../Navbar/Navbar";
 
 const Contact = () => {
+  <Navbar/>
   const navigate = useNavigate();
 
+  
   useEffect(() => {
     navigate("/");
 

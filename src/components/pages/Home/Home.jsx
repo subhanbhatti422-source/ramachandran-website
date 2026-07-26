@@ -28,6 +28,7 @@ import music3 from "../../../assets/audio/eX715C6r0WCOw9PRimuW9TSaus.mp3";
 
 
 import Lenis from "lenis";
+import Navbar from "../../Navbar/Navbar";
 
 
 function Home() {
@@ -183,7 +184,7 @@ function Home() {
     <>
 
      
-
+<Navbar/>
 
       <div id="Creative">
 

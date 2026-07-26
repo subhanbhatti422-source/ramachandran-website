@@ -9,9 +9,9 @@ function Navbar() {
   return (
     <nav>
       <div id="Navbar" className="navbar">
-        <a href="#Creative">
+        <Link to="/">
           <h3>WHY RAMACHANDRAN</h3>
-        </a>
+        </Link>
 
         {/* Hamburger Button */}
         {!menuOpen && (

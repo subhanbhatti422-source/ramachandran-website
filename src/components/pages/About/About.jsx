@@ -1,11 +1,11 @@
+import Navbar from "../../Navbar/Navbar";
 import "./About.css";
 import { Link } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
-
 function About() {
   return (
     <>
-<Navbar/>
+
+    <Navbar/>
     
       <section className="Product">
         <div className="left">
